@@ -59,6 +59,11 @@ For a working example, see the [Example Plugin](https://github.com/InfamyStudio/
 6. Add your plugin to the `plugins_enabled` list in `config.json`.  
 7. Submit a pull request with your plugin for review and inclusion.
 
+### Recommended Development Practices:
+- When I started testing regex pattern matching I would type the spam message into the game and have the system monitor the log file live. This caused me to have my account locked for creating spam messages.
+- I recommend directly editing the log file to test your regex patterns and not enter messages through the game.
+- You can also use a regex testing tool to test your patterns before implementing them in the system.
+
 ---
 
 ## Important Information
