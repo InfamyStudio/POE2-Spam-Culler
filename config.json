@@ -1,3 +1,6 @@
 {
-    "log_path": "D:/SteamLibrary/steamapps/common/Path of Exile 2/logs/Client.txt"
+    "log_path": "D:/SteamLibrary/steamapps/common/Path of Exile 2/logs/Client.txt",
+    "plugins_enabled": [
+        "cplugin_example_plugin"
+    ]
 }
