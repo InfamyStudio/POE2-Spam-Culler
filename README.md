@@ -65,8 +65,7 @@ For a working example, see the [Example Plugin](https://github.com/InfamyStudio/
 
 - At present, the framework does not perform any actions automatically.  
 - Further discussion is needed to decide how spam detections should be handled. Different communities may require different approaches.  
-- A proposed design would keep the system modular, allowing users to select what actions to take on spam detection.  
-- Contributors can create "action" plugins that integrate with the detection system for advanced responses.  
+- To solve this issue, the system is build to be modular and allow for plugins to be enabled and disabled as needed. This means you can choose what action is taken for matched spam by either enabling a community plugin or creating your own.  
 - The file is named `client.py` because, in my own build, spam reports are transported to a server that sends Discord embeds. This is only a proof of concept and is not included in this repository.
 
 ---
