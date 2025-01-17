@@ -81,11 +81,13 @@ For a working example, see the [Example Plugin](https://github.com/InfamyStudio/
 ## Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/InfamyStudio/POE2-Spam-Culler.git
    cd poe2-spam-culler
    ```
 2. **Install required dependencies:**
+
    ```bash
    pip install -r requirements.txt
 
@@ -96,6 +98,7 @@ For a working example, see the [Example Plugin](https://github.com/InfamyStudio/
    pip install -r requirements.txt
    ```
 3. **Edit the ```config.json``` file in the root directory to point to your POE2 client log file:**
+
    ```json
    {
       "log_path": "PATH_TO_YOUR_POE2_CLIENT_LOG",
@@ -106,7 +109,18 @@ For a working example, see the [Example Plugin](https://github.com/InfamyStudio/
    ```
    Note: The example config includes my path and the example plugin for demonstration. Update these to suit your needs.
    You can also select what plugins to enable by adding them to the `plugins_enabled` list.
-4. **Edit ```spam_hosts``` and ```spam_discord``` to maintain your own lists of suspicious hosts and Discord handles.**
+4. **Edit ```spam_hosts``` and ```spam_discord``` to maintain your own lists of suspicious hosts and Discord handles:**
+- Example spam_hosts:
+```
+google
+xyz
+```
+Note you do not need to include the full URL, just the domain name/host name. The system automatically checks for domain endings like .com, .net, etc.
+- Example spam_discord:
+```
+user1
+user2
+```
 
 ---
 
